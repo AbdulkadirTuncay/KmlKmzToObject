@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.IO.Compression;
@@ -25,6 +26,8 @@ namespace KmlKmzToObjectDll
         private List<DtoKml> KmlData { get; set; }
         private List<DtoKml> ReadXmlDocument(string filePath)
         {
+            string subFileName = filePath.Substring(filePath.LastIndexOf("\\", StringComparison.Ordinal) + 1);
+            subFileName = subFileName.Remove(subFileName.LastIndexOf(".", StringComparison.Ordinal)).Replace(" ", "");
             KmlData = new List<DtoKml>();
             XmlDocument xmlDocument = new XmlDocument();
             xmlDocument.Load(filePath);
@@ -32,7 +35,7 @@ namespace KmlKmzToObjectDll
             for (int i = 0; i < xmlnode.Count; i++)
             {
                 DtoKml addingItem = new DtoKml();
-
+                addingItem.KmlName = subFileName;
                 var b = xmlnode[i].ChildNodes;
                 foreach (var node1 in b)
                 {

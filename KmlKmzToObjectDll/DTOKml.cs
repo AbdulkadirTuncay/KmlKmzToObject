@@ -10,6 +10,7 @@ namespace KmlKmzToObjectDll
         public string Description { get; set; }
         public string WktString { get; set; }
         public string ObjectTypeName { get; set; }
+        public string KmlName { get; set; }
 
     }
 }
