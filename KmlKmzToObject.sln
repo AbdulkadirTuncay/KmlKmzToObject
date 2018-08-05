@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmlKmzToObject", "KmlKmzToObject\KmlKmzToObject.csproj", "{0E75303F-B09F-4B60-9ABA-5872A26844FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmlKmzToObjectTest", "KmlKmzToObjectTest\KmlKmzToObjectTest.csproj", "{BCB18B46-DBD1-4EC6-9D21-C1DD93918E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KmlKmzToObjectDll", "KmlKmzToObjectDll\KmlKmzToObjectDll.csproj", "{BE5EE3FB-D495-4ABA-B32E-874F20C740CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E75303F-B09F-4B60-9ABA-5872A26844FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E75303F-B09F-4B60-9ABA-5872A26844FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E75303F-B09F-4B60-9ABA-5872A26844FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E75303F-B09F-4B60-9ABA-5872A26844FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB18B46-DBD1-4EC6-9D21-C1DD93918E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB18B46-DBD1-4EC6-9D21-C1DD93918E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB18B46-DBD1-4EC6-9D21-C1DD93918E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB18B46-DBD1-4EC6-9D21-C1DD93918E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE5EE3FB-D495-4ABA-B32E-874F20C740CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE5EE3FB-D495-4ABA-B32E-874F20C740CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE5EE3FB-D495-4ABA-B32E-874F20C740CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE5EE3FB-D495-4ABA-B32E-874F20C740CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
